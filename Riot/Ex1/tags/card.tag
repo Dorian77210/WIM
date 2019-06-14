@@ -1,11 +1,27 @@
 <card>
+
+	<style>
+
+
+
+	</style>
+
 	<div>
-		<p>yes</p>
 		<img src="{this.user.picture.medium}" />
+		<h3>
+			{ this.user.name.first + " " + this.user.name.last } 
+		</h3>
+		<p>
+			{ this.user.location.street }<br />
+			{ this.user.location.timezone.description }
+		</p>
+
+		<a href="mailto:{this.user.email}">{ this.user.email }</a>
 	</div>
 
 <script>
 	this.user = opts.user;
+	console.log(this.user);
 </script>
 
 </card>
