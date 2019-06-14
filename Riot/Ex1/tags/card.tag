@@ -20,8 +20,8 @@
 	</div>
 
 <script>
+	// configuration
 	this.user = opts.user;
-	console.log(this.user);
 </script>
 
 </card>
