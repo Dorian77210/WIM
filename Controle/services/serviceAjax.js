@@ -24,6 +24,7 @@ const makeAjaxRequest = ( url ) => {
 const retrieveAjaxService = () => {
 	return {
 		initURL: 'http://www.iut-fbleau.fr/controle/wim41/init',
+		isInURL: 'http://www.iut-fbleau.fr/controle/wim41/is_in/',
 		request: makeAjaxRequest
 	};
 }
