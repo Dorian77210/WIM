@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<title>Ex1</title>
+	<script src="./lib/riot.js"></script>
+	<script src="./tags/app.tag" type="riot/tag"></script>
+	<script src="./tags/card.tag" type=""
+	<script src="./services/ajax.js"></script>
+	<script>
+		// configuration of riot
+		riot.mount( '*' );
+		riot.mixin( 'serviceAjax', serviceAjax() );
+	</script>
+
+	<body>
+		<app></app>
+	</body>
+</html>
